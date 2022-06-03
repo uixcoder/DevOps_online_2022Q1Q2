@@ -1,0 +1,18 @@
+9cb821a HEAD@{0}: merge develop: Fast-forward
+c6ed944 HEAD@{1}: checkout: moving from develop to main
+9cb821a HEAD@{2}: commit: add changes tto index.html and styles.css
+6c2bf02 HEAD@{3}: merge styles: Merge made by the 'recursive' strategy.
+195fc01 HEAD@{4}: merge images: Fast-forward
+7ee3e03 HEAD@{5}: checkout: moving from styles to develop
+7798654 HEAD@{6}: commit: add styles
+7ee3e03 HEAD@{7}: checkout: moving from develop to styles
+7ee3e03 HEAD@{8}: checkout: moving from images to develop
+195fc01 HEAD@{9}: commit: add images to index.html
+c37d904 HEAD@{10}: checkout: moving from develop to images
+7ee3e03 HEAD@{11}: checkout: moving from images to develop
+c37d904 HEAD@{12}: commit: create images folderwith images
+7ee3e03 HEAD@{13}: checkout: moving from develop to images
+7ee3e03 HEAD@{14}: commit: create index.html empty file
+c6ed944 HEAD@{15}: checkout: moving from main to develop
+c6ed944 HEAD@{16}: commit: initial commit
+f2e21bf HEAD@{17}: clone: from https://github.com/uixcoder/DevOps_online_2022Q1Q2.git
