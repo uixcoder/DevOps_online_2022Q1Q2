@@ -1,0 +1,11 @@
+content{
+    
+}
+.image-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.images{
+    max-height: 200px;
+}
