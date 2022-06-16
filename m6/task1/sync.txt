@@ -1,0 +1,49 @@
+
+[1m[3mDirectory updated on 17.06.2022 00:44:01 [0m
+[1m[2mDeleted files/directories:[0m
+[1m[2m  ./bcf/1/[0m
+   ./bcf/sssss.fdfredsd
+   ./bcf/sssscxzczc.txt
+[1m[2m  ./bcf/[0m
+   ./sssscxzczc.txt
+[1m[2mCreated new directories:[0m
+  ./e/bcf/
+  ./e/bcf/1/
+[1m[2mNew/updated copied files to destination:[0m
+  ./fssdsd.txt
+  ./2/fssdsd.txt
+  ./e/bcf/sssscxzczc.txt
+  ./e/bcf/sssss.fdfredsd
+
+[1m[3mDirectory updated on 17.06.2022 00:50:01 [0m
+[1m[2mDeleted files/directories:[0m
+[1m[2m  ./e/bcf/1/[0m
+   ./e/bcf/sssss.fdfredsd
+   ./e/bcf/sssscxzczc.txt
+[1m[2m  ./e/bcf/[0m
+[1m[2m  ./e/1111/eee/[0m
+   ./e/1111/sssss.fdfredsd
+   ./e/1111/sssss
+   ./e/1111/sssscxzczc.txt
+   ./e/1111/sssscxzczc
+   ./e/1111/sfgsfsdf
+   ./e/1111/fssdsd.txt
+   ./e/1111/dfgdfgd
+   ./e/1111/cvcdvc
+[1m[2m  ./e/1111/[0m
+[1m[2mCreated new directories:[0m
+  ./1111/
+  ./1111/eee/
+  ./bcf/
+  ./bcf/1/
+[1m[2mNew/updated copied files to destination:[0m
+  ./1111/cvcdvc
+  ./1111/dfgdfgd
+  ./1111/fssdsd.txt
+  ./1111/sfgsfsdf
+  ./1111/sssscxzczc
+  ./1111/sssscxzczc.txt
+  ./1111/sssss
+  ./1111/sssss.fdfredsd
+  ./bcf/sssscxzczc.txt
+  ./bcf/sssss.fdfredsd

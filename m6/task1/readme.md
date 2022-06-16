@@ -50,7 +50,7 @@ crontab with a run frequency of one minute]
 ```
 ### [Created bash script](task_c.sh)
 
-### [Sample log file](sync.log)
+### [Sample log file](sync.txt)
 
 ### Results
 
