@@ -1,0 +1,24 @@
+SELECT Servers.id, Projects.proj_name, Servers.dns_name, 
+		Servers.ip_address, ServerTypes.type_name 
+		FROM (((ServerProjects
+		INNER JOIN Projects ON Projects.id=ServerProjects.projects_id)
+		INNER JOIN Servers ON ServerProjects.servers_id=Servers.id)
+		INNER JOIN ServerTypes ON Servers.servertypes_id=ServerTypes.id)
+		WHERE (Projects.proj_name='Project3') AND (ServerTypes.type_name='apache');
+
+SELECT Servers.id, Projects.proj_name FROM (((ServerProjects
+         INNER JOIN Projects ON Projects.id=ServerProjects.projects_id)
+		 INNER JOIN Servers ON ServerProjects.servers_id=Servers.id)
+		 INNER JOIN ServerTypes ON Servers.servertypes_id=ServerTypes.id)
+		 WHERE (Projects.proj_name='Project3') AND (ServerTypes.type_name='apache');
+
+
+SELECT Servers.id FROM Servers
+         INNER JOIN ServerTypes
+         ON Servers.servertypes_id=ServerTypes.id
+         WHERE ServerTypes.type_name='apache';
+
+
+INSERT INTO ServerPorts (servers_id, port_type, port_number) VALUES (1, 'tcp', 443);
+
+DELETE FROM ServerPorts WHERE port_number=443;

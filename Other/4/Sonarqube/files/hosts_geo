@@ -1,0 +1,5 @@
+#!/bin/bash
+
+server_ip='10.1.1.60'
+db_server_ip='10.1.1.60'
+
