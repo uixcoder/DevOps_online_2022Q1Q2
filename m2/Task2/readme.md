@@ -61,6 +61,9 @@
 ![8_9](img/8_9.png)
 
 #### 9. Review the 10-minute example. Explore the possibilities of creating your own domain and domain name for your site. Note, that Route 53 not free service. Alternatively you can free register the domain name *.PP.UA and use it.
+
+![15_1](img/15_1.png)
+
 #### 10. Launch and configure a WordPress instance with Amazon Lightsail [link] (https://aws.amazon.com/getting-started/hands-on/launch-a-wordpress-website/?trk=gs_card)
 
 ![10_1](img/10_1.png)
@@ -100,3 +103,5 @@ https://aws.amazon.com/getting-started/hands-on/deploy-docker-containers/?nc1=h_
 https://aws.amazon.com/getting-started/hands-on/run-serverless-code/?nc1=h_ls
 
 #### 15. Create a static website on Amazon S3, publicly available (link1 or link2 - using a custom domain registered with Route 53). Post on the page your own photo, the name of the educational program (EPAM DevOps online Winter 2022), the list of AWS services with which the student worked within the educational program or earlier and the full list with links of completed labs (based on tutorials or qwiklabs). Provide the link to the website in your report and СV.
+
+![15_1](img/15_1.png)
