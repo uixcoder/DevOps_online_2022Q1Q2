@@ -110,9 +110,9 @@ Search the short descriptions and manual page names for the keyword printf as re
 #### 8) * List the contents of the home directory using the ls command, define its files and directories. Hint: Use the help system to familiarize yourself with the ls command.
 
 
-##Task1.
-###Part2
-####1) Examine the tree command. Master the technique of applying a template, for example, display all files that contain a character c, or files that contain a specific sequence of characters. List subdirectories of the root directory up to and including the second nesting level.
+## Task1.
+### Part2
+#### 1) Examine the tree command. Master the technique of applying a template, for example, display all files that contain a character c, or files that contain a specific sequence of characters. List subdirectories of the root directory up to and including the second nesting level.
 
 ```
 NAME
@@ -187,7 +187,7 @@ Sample:
 
 ![2_4](img/2_4.png)
 
-####5) Perform the following sequence of operations:
+#### 5) Perform the following sequence of operations:
 - create a subdirectory in the home directory;
 
 ![2_5_1](img/2_5_1.png)
