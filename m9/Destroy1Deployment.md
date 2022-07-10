@@ -2,6 +2,12 @@
 
 ### 1. Pipeline
 
+Create new pipeline Destroy1
+
+
+
+Add [code](Jenkins2.txt) to pipeline
+
 ```
 pipeline {
     agent {label 'agent1'}

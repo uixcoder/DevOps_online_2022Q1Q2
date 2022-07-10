@@ -200,12 +200,12 @@ Now remove 2 executors from built-in node
 
 ![j25](img/j25.png)
 
-### 6. Add 2G swap area on Docker EC2 Instance
+### 6. Add 1G swap area on Docker EC2 Instance
 
 Add swapfile
 
 ```
-$ sudo dd if=/dev/zero of=/swapfile bs=2M count=1024
+$ sudo dd if=/dev/zero of=/swapfile bs=1M count=1024
 $ sudo chmod 0600 /swapfile
 $ sudo mkswap /swapfile
 $ sudo swapon /swapfile
