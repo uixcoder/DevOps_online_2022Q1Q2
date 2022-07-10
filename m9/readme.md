@@ -8,7 +8,7 @@ The project [**spring-framework-petclinic**](https://github.com/spring-petclinic
 
 ## Main Stages on working with Deployments:
 
-### 1. Manual deployment on Virtualbox VM (Ubuntu 18.04)
+### 1. Manual deployment of PetClinic Project on Virtualbox VM (Ubuntu 18.04)
     
 1. Gathering info about needed software  
 Well works on soft:
