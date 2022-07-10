@@ -14,7 +14,7 @@
 
 ## 3. Networking fundamentals
 
-[Task 3.1](m3/task3.1/readme.md)
+[Task 3.1](m3/task3.1/)
 
 [Task 3.2](m3/task3.2/readme.md)
 
