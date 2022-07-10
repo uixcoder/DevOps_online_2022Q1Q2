@@ -57,12 +57,12 @@ Works normally...
 ### 6. Create Jenkins pipelines for deployments
 
    1. Tomcat + PostrgreSQL [pipeline codes](https://github.com/uixcoder/Deploy_AWS_EC2_PostgerSQL/tree/master/Jenkins) 
-    - [Create and manage infrastrtucture](Deploy1Application.md)
-    - [Destroy infrastructure](Destroy1Deployment.md)
+      - [Create and manage infrastrtucture](Deploy1Application.md)
+      - [Destroy infrastructure](Destroy1Deployment.md)
 
    2. Tomcat + MySQL [pipeline codes](https://github.com/uixcoder/Deploy_AWS_EC2_RDS_MySQL/tree/master/Jenkins)
-    - [Create and manage infrastrtucture](Deploy2Application.md)
-    - [Destroy infrastructure](Destroy2Deployment.md)
+      - [Create and manage infrastrtucture](Deploy2Application.md)
+      - [Destroy infrastructure](Destroy2Deployment.md)
 
 ### 7. Testing and fixing bugs
 
