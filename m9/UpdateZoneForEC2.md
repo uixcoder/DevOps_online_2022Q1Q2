@@ -68,7 +68,7 @@ sudo ./aws/install
 
 Then i added setzone.sh script to auto start
 
-Create a file /etc/systemd/system/update_public_ip.service:
+Also i created file /etc/systemd/system/update_public_ip.service:
 
 `$ sudo nano /etc/systemd/system/update_public_ip.service`
 
@@ -82,6 +82,8 @@ ExecStart=/bin/bash /root/setzone.sh
 [Install]
 WantedBy=multi-user.target
 ```
+
+and configured autostart of created service
 
 `$ sudo systemctl daemon-reload`
 

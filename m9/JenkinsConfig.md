@@ -162,7 +162,7 @@ RUN curl -fSSL https://releases.hashicorp.com/terraform/1.2.4/terraform_1.2.4_li
 RUN apt-get install -y python3 python3-pip
 RUN pip3 install ansible
 ```
-Built image
+Build image
 
 `$ docker build -t jenkinsagent .`
 
