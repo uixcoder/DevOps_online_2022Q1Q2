@@ -4,7 +4,7 @@
 
 Create new pipeline Destroy1
 
-Add [code](Jenkins1_2.txt) to pipeline
+Add [code](Jenkins2_2.txt) to pipeline
 
 ```
 pipeline {
@@ -19,7 +19,7 @@ pipeline {
         stage ('Git checkout'){
             steps {
                 dir ('Deploy') {
-                    git branch: 'master', url: 'https://github.com/uixcoder/Deploy_AWS_EC2_PostgerSQL.git'
+                    git branch: 'master', url: 'https://github.com/uixcoder/Deploy_AWS_EC2_RDS_MySQL.git'
                 }
             }
         }
@@ -37,4 +37,4 @@ pipeline {
 
 ```
 
-![a11](img/a11.png)
+![b8](img/b8.png)

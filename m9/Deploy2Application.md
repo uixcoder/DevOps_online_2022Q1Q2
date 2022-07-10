@@ -4,11 +4,11 @@
 
 Manually create S3 Bucket **pet-clinic-project**
 
-![p1](img/p1.png)
+![p1](img/b1.png)
 
 and DynamoDB lock table **petclinic-tf-lock**
 
-![p2](img/p2.png)
+![p2](img/b2.png)
 
 with partition key **LockID**.
 
@@ -17,13 +17,13 @@ with partition key **LockID**.
 
 ![a1](img/a1.png)
 
-### 3. Create and configure Pipeline that creates,  configures infrastructure, deploys application
+### 3. Create and configure Pipeline that creates, configures infrastructure, deploys application
 
-Create new pipeline Deploy1
+Create new pipeline Deploy2
 
 ![a3](img/a3.png)
 
-Add [code](Jenkins1_1.txt) to pipeline
+Add [code](Jenkins2_1.txt) to pipeline
 
 ```
 pipeline {
@@ -46,7 +46,7 @@ pipeline {
             steps {
                 git branch: 'master', url: 'https://github.com/uixcoder/spring-framework-petclinic.git'
                 dir ('Deploy') {
-                    git branch: 'master', url: 'https://github.com/uixcoder/Deploy_AWS_EC2_PostgerSQL.git'
+                    git branch: 'master', url: 'https://github.com/uixcoder/Deploy_AWS_EC2_RDS_MySQL.git'
                 }
             }
         }
@@ -54,7 +54,7 @@ pipeline {
             steps {
               sh script: '''
                     chdir Deploy/Terraform
-                    terraform init -force-copy
+                    terraform init -reconfigure
                     terraform apply --auto-approve
               ''' 
             }
@@ -63,12 +63,9 @@ pipeline {
            steps {
                 sh "chmod u+x Deploy/Ansible/app/fix"
                 sh "./Deploy/Ansible/app/fix"
-                sh "find . -type f -name 'pom.xml' -exec sed -i 's/db_name_template/$DB_NAME/g' {} +"
-                sh "find . -type f -name 'pom.xml' -exec sed -i 's/db_user_template/$DB_USER/g' {} +"
-                sh "find . -type f -name 'pom.xml' -exec sed -i 's/db_password_template/$DB_PASSWORD/g' {} +"
-                sh "find ./Deploy/Ansible/ -type f -name 'configDbServer.yml' -exec sed -i 's/db_name_template/$DB_NAME/g' {} +"
-                sh "find ./Deploy/Ansible/ -type f -name 'configDbServer.yml' -exec sed -i 's/db_user_template/$DB_USER/g' {} +"
-                sh "find ./Deploy/Ansible/ -type f -name 'configDbServer.yml' -exec sed -i 's/db_password_template/$DB_PASSWORD/g' {} +"                   
+                sh "find . -type f -name 'pom.xml' -exec sed -i 's/db1_name_template/$DB_NAME/g' {} +"
+                sh "find . -type f -name 'pom.xml' -exec sed -i 's/db1_user_template/$DB_USER/g' {} +"
+                sh "find . -type f -name 'pom.xml' -exec sed -i 's/db1_password_template/$DB_PASSWORD/g' {} +"
             }
         }        
         stage ('Config AWS infrastructure'){
@@ -81,8 +78,6 @@ pipeline {
                 sh script: '''
                     chdir Deploy/Ansible
                     ansible-playbook configAppServer.yml
-                    ansible-playbook configDbServer.yml
-                    
                 '''                 
                 sh "rm -f Deploy/config/ATC.pem"
             }
@@ -128,11 +123,11 @@ pipeline {
 
 ### 4. Build Application
 
-![a5](img/a5.png)
+![b3](img/b3.png)
 
 ### 5. Deployed App
 
-![a6](img/a6.png)
+![b4](img/b4.png)
 
 ### 6. Add GithHub Webhook for auto start build after git changes
 
@@ -140,20 +135,14 @@ Add WebHook for Repository Settings
 
 ![a8](img/a8.png)
 
+![b5](img/b5.png)
+
 Add Listener to Jenkins Pipeline
 
 ![a9](img/a9.png)
 
-Build starts automatically after pushing to app repository https://github.com/uixcoder/spring-framework-petclinic
+Build starts automatically after pushing to app repository https://github.com/uixcoder/spring-framework-petclinic and infrastructure repository https://github.com/uixcoder/Deploy_AWS_EC2_RDS_MySQL
 
-![a7](img/a7.png)
+![b6](img/b6.png)
 
-![a7_0](img/a7_0.png)
-
-The same configurationss are done for infrastructure repository https://github.com/uixcoder/Deploy_AWS_EC2_PostgerSQL
-
-### 7. Test Load of Docker/Jenkins EC2 instance 
-
-![ai0](img/ai0.png)
-
-
+![b7](img/b7.png)
