@@ -52,7 +52,9 @@
 
 [Final project](Final project/)
 
+## Other Devops achievements
 
+[Other](Other/)
 
 
 
