@@ -30,8 +30,6 @@
 
 [Task 4.3](m4/Task3/)
 
-[Task 4.4](m4/Task4/)
-
 ## 5. Linux Networking
 
 [Task 5.1](m5/)
