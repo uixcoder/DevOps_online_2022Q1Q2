@@ -37,8 +37,8 @@ Works normally...
       - EC2 Instance (RHEL 8 + PostgreSQL 10.21)
 
    2. Tomcat + MySQL
-     - EC2 Instance (Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64)
-     - RDS MySQL 8.0.28
+      - EC2 Instance (Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64)
+      - RDS MySQL 8.0.28
 
 **3. Terraform scripts for creating infrastructure** 
 
