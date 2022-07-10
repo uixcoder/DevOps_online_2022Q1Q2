@@ -33,8 +33,8 @@ Works normally...
 **2. Deployment variants**
 
    1. Tomcat + PostrgreSQL 
-     - EC2 Instance (Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64)
-     - EC2 Instance (RHEL 8 + PostgreSQL 10.21)
+      - EC2 Instance (Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64)
+      - EC2 Instance (RHEL 8 + PostgreSQL 10.21)
 
    2. Tomcat + MySQL
      - EC2 Instance (Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64)
