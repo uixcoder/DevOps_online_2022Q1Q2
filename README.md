@@ -48,7 +48,7 @@
 
 ## Final project
 
-[Final project](Final project/)
+[Final project](FinalProject/)
 
 ## Other Devops achievements
 
