@@ -39,7 +39,7 @@ Works normally...
       - EC2 Instance (Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64)
       - RDS MySQL 8.0.28
 
-### 3. Terraform scripts for creating infrastructure
+### 3. Terraform scripts for creating infrastructure (Infrastructure-as-Code, Iac)
 
    1. [Tomcat + PostrgreSQL](https://github.com/uixcoder/Deploy_AWS_EC2_PostgerSQL/tree/master/Terraform)
    2. [Tomcat + MySQL](https://github.com/uixcoder/Deploy_AWS_EC2_RDS_MySQL/tree/master/Terraform)
@@ -66,5 +66,18 @@ Works normally...
 
 ### 7. Testing and fixing bugs
 
+   1. Fixing bugs 
+
+   2. [Testing under load](Testing.md)
+
 ### 8. Writing runbooks
+
+### 9. Add monitoring nodes with Prometheus / Grafana 
+ 
+   1. [Prometheus Node Exporter + MySQL Exporter](PG_NodeExporter_MySqlExporter.md) 
+
+   2. [Prometheus](PG_Prometheus.md)
+
+   3. [Grafana](PG_Grafana.md)
+
 

@@ -1,4 +1,4 @@
-# Testing
+# Testing under load
 
 ## Test Docker/Jenkins configuration under load 
 
@@ -37,3 +37,5 @@ The total run time of 2 pipelines is not much bigger than 1 alone.
 ![test9](img/test9.png)
 
 ![test10](img/test10.png)
+
+SUMMARY: Selected configuration is enough for test deployment. 
