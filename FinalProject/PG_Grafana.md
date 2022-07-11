@@ -73,7 +73,7 @@ By looking at this page, you can get information about the state of the server, 
 
 And for MySQL RDS Database 
 
-[Node Exporter Server Metrics](https://grafana.com/grafana/dashboards/405)
+[MySQL Exporter Quickstart and Dashboard](https://grafana.com/grafana/dashboards/14057)
 
 ![grafana4](img/grafana4.png)
 
