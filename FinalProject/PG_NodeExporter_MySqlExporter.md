@@ -249,7 +249,7 @@ Instructions [1]() and [2]() was used while writing [ansible playbook](https://g
         timeout: 5    
 ```
 
-Test Node Exporter
+Test MySQL Exporter
 
 `http://pet2.xcoder.pp.ua:9104/metrics`
 
