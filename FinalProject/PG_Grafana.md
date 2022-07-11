@@ -55,6 +55,10 @@ After setting up the Datasource, we can create a dashboard. A dashboard is simpl
 
 Creating your own dashboard from scratch can be a hard task. Luckily, Grafana provides an easy way to import dashboards created by other users. Once imported, the dashboard can be customized to suit your needs.
 
+Import Dashboard
+
+![g10](img/g10.png)
+
 As an example, I will use dashboards located at the following links:
 
 [Node Exporter Full](https://grafana.com/grafana/dashboards/1860)
@@ -77,6 +81,3 @@ And for MySQL RDS Database
 
 ![grafana4](img/grafana4.png)
 
-Import Dashboard
-
-![g10](img/g10.png)
