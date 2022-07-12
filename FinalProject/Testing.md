@@ -20,13 +20,13 @@ Time for deployment 2
 
 is very dependant on time for creating database in AWS RDS. Sometimes it's too long.
 
-### 2 executors on agent2 + 1GB swap area
+### 2 executors on agent1 + 1GB swap area
 
 Memory consumption is not so big
 
 ![test1](img/test1.png)
 
-but when using **maven** for testing or building war it increases
+but when using **maven** for testing or building .war it increases
 
 ![test6](img/test6.png)
 
@@ -38,4 +38,4 @@ The total run time of 2 pipelines is not much bigger than 1 alone.
 
 ![test10](img/test10.png)
 
-SUMMARY: Selected configuration is enough for test deployment. 
+**SUMMARY:** Selected AWS configuration is enough for test deployment and is even good as for free tier aws services.

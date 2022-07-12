@@ -31,13 +31,35 @@ Works normally...
 
 ### 2. Deployment variants
 
-   1. Tomcat + PostgreSQL 
-      - EC2 Instance (Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64)
-      - EC2 Instance (RHEL 8 + PostgreSQL 10.21)
+   1. **Tomcat + PostgreSQL**
 
-   2. Tomcat + MySQL
-      - EC2 Instance (Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64)
-      - RDS MySQL 8.0.28
+      - ***AWS EC2 Instance***  
+          2vCPU, 1GiB RAM, 8 GiB HDD/SDD (t3.micro, eu-north-1, Stockholm)  
+          Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64  
+
+      - ***AWS EC2 Instance***  
+          2vCPU, 1GiB RAM, 8 GiB HDD/SDD (t3.micro, eu-north-1, Stockholm)  
+          AWS EC2 Instance  
+
+   2. **Tomcat + MySQL**
+
+      - ***AWS EC2 Instance***  
+          2vCPU, 1GiB RAM, 8 GiB HDD/SDD (t3.micro, eu-north-1, Stockholm)  
+          Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64  
+
+      - ***AWS RDS*** MySQL 8.0.28
+
+### 3. Create local VirtualBox VM for Docker + Jenkins / Jenkins agents containers
+
+   1. VM: 2CPU, 4GiB RAM, 20GiB HDD(SDD).
+
+   2. Install / configure Docker Engine.
+   
+   3. Create Jenkins Docker container with DockerHub image `jenkins/jenkins:lts-jdk11`.
+   
+   4. Create Jenkins agent Docker Container with `'docker build'` for `Dockerfile` based on `jenkins/ssh-agent:jdk11` + Terraform and Ansible  
+   
+   5. Add JGit and Maven auto istallation  
 
 ### 3. Terraform scripts for creating infrastructure (Infrastructure-as-Code, Iac)
 
@@ -51,8 +73,9 @@ Works normally...
 
 ### 5. Configure Jenkins EC2 Instance (Jenkins and agents as Docker container) with public DNS name
 
-   1. [Configuration details](JenkinsConfig.md)
-   2. [Update DNS (Route 53) record for EC2 Instance (Jenkins) on VM Startup](UpdateZoneForEC2.md)
+   1. AWS EC2 Instance: 2vCPU, 1GiB RAM, 8-12 Gb HDD/SDD (t3.micro, eu-north-1, Stockholm) 
+   2. [Configuration details](JenkinsConfig.md)
+   3. [Update DNS (Route 53) record for EC2 Instance (Jenkins) on VM Startup](UpdateZoneForEC2.md)
 
 ### 6. Create Jenkins pipelines for deployments
 
