@@ -47,7 +47,7 @@ Works normally...
           - 2vCPU, 1GiB RAM, 8 GiB HDD/SDD (t3.micro, eu-north-1, Stockholm)  
           - Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64  
 
-      - ***AWS RDS Database***  
+      - ***AWS RDS MySQL Database***  
           - t3.micro, 10 GiB Storage
           - MySQL 8.0.28
 
