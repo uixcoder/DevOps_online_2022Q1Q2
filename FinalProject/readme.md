@@ -57,7 +57,7 @@ Works normally...
    
    3. Create Jenkins Docker container with DockerHub image `jenkins/jenkins:lts-jdk11`.
    
-   4. Create Jenkins agent Docker Container with `'docker build'` for `Dockerfile` based on `jenkins/ssh-agent:jdk11` + Terraform and Ansible  
+   4. Create Jenkins agent Docker Container with `'docker build'` for `Dockerfile` based on DockerHub image `jenkins/ssh-agent:jdk11` + Terraform and Ansible  
    
    5. Add JGit and Maven auto istallation  
 
