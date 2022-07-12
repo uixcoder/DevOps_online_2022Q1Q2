@@ -26,7 +26,7 @@ Petclinic Project works well on the such versions of software packages:
 Works normally...
 
 4. Manual testing of the App run with PostgreSQL Database (local Docker)  
-**Problem:** 8 Built-in Tests Fail, but application works.  
+**Problem:** 8 Built-in Tests Fail on different PostgreSQL versions, but application works.  
 **Solution:** Disable testing up to the app code fixing (app used too old variant of PostgreSQL for testing). **Testing for PostgreSQL is disabled in deployment.**
 
 ### 2. Deployment variants
