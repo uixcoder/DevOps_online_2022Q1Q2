@@ -6,10 +6,6 @@ The project [**spring-framework-petclinic**](https://github.com/spring-petclinic
 
 [My forked version of project](https://github.com/uixcoder/spring-framework-petclinic) has some small changes (related to default database selection) in **pom.xml** file as i done 2 variants of deployment.
 
-![a6](img/a6.png)
-
-
-
 ## Main Stages on working with Deployments:
 
 ### 1. Manual deployment of PetClinic Project on Virtualbox VM (Ubuntu 18.04)
