@@ -1,10 +1,10 @@
 # PetClinic Project AWS Deployments
 
-The project [**spring-framework-petclinic**](https://github.com/spring-petclinic/spring-framework-petclinic) was selected as sample project for AWS Deployment.
+The project [**spring-framework-petclinic**](https://github.com/spring-petclinic/spring-framework-petclinic) was selected as a sample project for AWS Deployment.
 
 ![d1](img/d1.png)
 
-[My forked version of project](https://github.com/uixcoder/spring-framework-petclinic) has some small changes (related to default database selection) in **pom.xml** file as i done 2 variants of deployment.
+[My forked version of project](https://github.com/uixcoder/spring-framework-petclinic) has some small changes (related to the default database selection) in **pom.xml** file as i done 2 variants of deployment.
 
 ## Main Stages on working with Deployments:
 
@@ -38,16 +38,16 @@ Works normally...
           Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64  
 
       - ***AWS EC2 Instance***  
-          2vCPU, 1GiB RAM, 8 GiB HDD/SDD (t3.micro, eu-north-1, Stockholm)  
-          AWS EC2 Instance  
+          - 2vCPU, 1GiB RAM, 8 GiB HDD/SDD (t3.micro, eu-north-1, Stockholm)  
+          - AWS EC2 Instance  
 
    2. **Tomcat + MySQL**
 
       - ***AWS EC2 Instance***  
-          2vCPU, 1GiB RAM, 8 GiB HDD/SDD (t3.micro, eu-north-1, Stockholm)  
-          Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64  
+          - 2vCPU, 1GiB RAM, 8 GiB HDD/SDD (t3.micro, eu-north-1, Stockholm)  
+          - Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64  
 
-      - ***AWS RDS*** MySQL 8.0.28
+      - ***AWS RDS*** MySQL 8.0.28, t3.micro
 
 ### 3. Create local VirtualBox VM for Docker + Jenkins / Jenkins agents containers
 
@@ -80,11 +80,11 @@ Works normally...
 ### 7. Create Jenkins pipelines for deployments
 
    1. Tomcat + PostrgreSQL [pipeline codes](https://github.com/uixcoder/Deploy_AWS_EC2_PostgerSQL/tree/master/Jenkins) 
-      - [Create and manage infrastrtucture](Deploy1Application.md)
+      - [Create and manage infrastructure](Deploy1Application.md)
       - [Destroy infrastructure](Destroy1Deployment.md)
 
    2. Tomcat + MySQL [pipeline codes](https://github.com/uixcoder/Deploy_AWS_EC2_RDS_MySQL/tree/master/Jenkins)
-      - [Create and manage infrastrtucture](Deploy2Application.md)
+      - [Create and manage infrastructure](Deploy2Application.md)
       - [Destroy infrastructure](Destroy2Deployment.md)
 
 ### 8. Testing and fixing bugs
