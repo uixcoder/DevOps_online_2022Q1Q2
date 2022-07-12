@@ -10,8 +10,8 @@ The project [**spring-framework-petclinic**](https://github.com/spring-petclinic
 
 ### 1. Manual deployment of PetClinic Project on Virtualbox VM (Ubuntu 18.04)
     
-1. Gathering info about needed software  
-Well works on soft:
+1. Gathering info about needed software.  
+Petclinic Project well works on soft:
     - Git 3.8.6
     - Open JDK 11
     - Maven 3.8.6
