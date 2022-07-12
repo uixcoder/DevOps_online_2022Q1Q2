@@ -53,7 +53,7 @@ Works normally...
 
 ### 3. Create local VirtualBox VM for Docker + Jenkins / Jenkins agents containers
 
-   1. VM: 2CPU, 4GiB RAM, 20GiB HDD(SDD).
+   1. VM: 2CPU, 4GiB RAM, 20GiB HDD(SDD) + Ubuntu 18.04 Server.
 
    2. Install / configure Docker Engine.
    
