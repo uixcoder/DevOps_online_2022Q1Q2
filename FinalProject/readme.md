@@ -33,21 +33,21 @@ Works normally...
 
    1. **Tomcat + PostgreSQL**
 
-      - ***AWS EC2 Instance***  
+      - ***Application AWS EC2 Instance***  
           - 2vCPU, 1GiB RAM, 8 GiB HDD/SDD (t3.micro, eu-north-1, Stockholm)  
           - Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64  
 
-      - ***AWS EC2 Instance***  
+      - ***Database AWS EC2 Instance***  
           - 2vCPU, 1GiB RAM, 8 GiB HDD/SDD (t3.micro, eu-north-1, Stockholm)  
           - RHEL 8 + PostgreSQL 10.21 
 
    2. **Tomcat + MySQL**
 
-      - ***AWS EC2 Instance***  
+      - ***Application AWS EC2 Instance***  
           - 2vCPU, 1GiB RAM, 8 GiB HDD/SDD (t3.micro, eu-north-1, Stockholm)  
           - Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64  
 
-      - ***AWS RDS***  
+      - ***AWS RDS Database***  
           - t3.micro, 10 GiB Storage
           - MySQL 8.0.28
 
