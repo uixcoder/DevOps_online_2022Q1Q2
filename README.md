@@ -50,7 +50,7 @@
 
 [Final project](FinalProject/)
 
-## Other Devops achievements
+## Other DevOps achievements
 
 [Other](Other/)
 

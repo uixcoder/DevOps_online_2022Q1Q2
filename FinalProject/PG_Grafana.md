@@ -63,15 +63,21 @@ As an example, I will use dashboards located at the following links:
 
 [Node Exporter Full](https://grafana.com/grafana/dashboards/1860)
 
-![grafana1](img/grafana1.png)
+Ubuntu 18.04 Node
+
+![grx1](img/grx1.png)
+
+RHEL 8 Node
+
+![grx2](img/grx2.png)
 
 [Node Exporter Resources Overview](https://grafana.com/grafana/dashboards/13702)
 
-![grafana2](img/grafana2.png)
+![grx3](img/grx3.png)
 
 [Node Exporter Server Metrics](https://grafana.com/grafana/dashboards/405)
 
-![grafana3](img/grafana3.png)
+![grx4](img/grx4.png)
 
 By looking at this page, you can get information about the state of the server, from how long it has been running to processor load and memory usage.
 
