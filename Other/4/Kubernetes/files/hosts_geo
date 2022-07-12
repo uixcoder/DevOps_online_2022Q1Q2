@@ -1,4 +1,0 @@
-#!/bin/bash
-
-server_ip='10.109.74.147'
-db_server_ip='10.111.156.173'
