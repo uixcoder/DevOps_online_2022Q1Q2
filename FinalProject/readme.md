@@ -39,7 +39,7 @@ Works normally...
 
       - ***AWS EC2 Instance***  
           - 2vCPU, 1GiB RAM, 8 GiB HDD/SDD (t3.micro, eu-north-1, Stockholm)  
-          - AWS EC2 Instance  
+          - RHEL 8 + PostgreSQL 10.21 
 
    2. **Tomcat + MySQL**
 
