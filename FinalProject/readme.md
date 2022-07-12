@@ -26,7 +26,7 @@ Well works on soft:
 Works normally...
 
 4. Manual testing App run with PostgreSQL Database (local Docker)  
-**Problem:** 8 Built-in Tests Fail, but application works.
+**Problem:** 8 Built-in Tests Fail, but application works.  
 **Solution:** Disable testing up to the app code fixing (app used too old variant of PostgreSQLl for testing). **Testing for PostgreSQL are disabled in deployment.**
 
 ### 2. Deployment variants
