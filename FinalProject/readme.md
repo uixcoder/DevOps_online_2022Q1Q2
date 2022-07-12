@@ -61,23 +61,23 @@ Works normally...
    
    5. Add JGit and Maven auto istallation  
 
-### 3. Terraform scripts for creating infrastructure (Infrastructure-as-Code, Iac)
+### 4. Terraform scripts for creating infrastructure (Infrastructure-as-Code, Iac)
 
    1. [Tomcat + PostrgreSQL](https://github.com/uixcoder/Deploy_AWS_EC2_PostgerSQL/tree/master/Terraform)
    2. [Tomcat + MySQL](https://github.com/uixcoder/Deploy_AWS_EC2_RDS_MySQL/tree/master/Terraform)
 
-### 4. Ansible playbooks for configuring infrastructure
+### 5. Ansible playbooks for configuring infrastructure
 
    1. [Tomcat + PostrgreSQL](https://github.com/uixcoder/Deploy_AWS_EC2_PostgerSQL/tree/master/Ansible)
    2. [Tomcat + MySQL](https://github.com/uixcoder/Deploy_AWS_EC2_RDS_MySQL/tree/master/Ansible)
 
-### 5. Configure Jenkins EC2 Instance (Jenkins and agents as Docker container) with public DNS name
+### 6. Configure Jenkins EC2 Instance (Jenkins and agents as Docker container) with public DNS name
 
    1. AWS EC2 Instance: 2vCPU, 1GiB RAM, 8-12 Gb HDD/SDD (t3.micro, eu-north-1, Stockholm) 
    2. [Configuration details](JenkinsConfig.md)
    3. [Update DNS (Route 53) record for EC2 Instance (Jenkins) on VM Startup](UpdateZoneForEC2.md)
 
-### 6. Create Jenkins pipelines for deployments
+### 7. Create Jenkins pipelines for deployments
 
    1. Tomcat + PostrgreSQL [pipeline codes](https://github.com/uixcoder/Deploy_AWS_EC2_PostgerSQL/tree/master/Jenkins) 
       - [Create and manage infrastrtucture](Deploy1Application.md)
@@ -87,15 +87,15 @@ Works normally...
       - [Create and manage infrastrtucture](Deploy2Application.md)
       - [Destroy infrastructure](Destroy2Deployment.md)
 
-### 7. Testing and fixing bugs
+### 8. Testing and fixing bugs
 
    1. Fixing bugs 
 
    2. [Testing under load](Testing.md)
 
-### 8. Writing runbooks
+### 9. Writing runbooks
 
-### 9. Add monitoring nodes with Prometheus / Grafana 
+### 10. Add monitoring nodes with Prometheus / Grafana 
  
    1. [Prometheus Node Exporter + MySQL Exporter](PG_NodeExporter_MySqlExporter.md) 
 
