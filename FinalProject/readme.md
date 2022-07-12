@@ -11,21 +11,21 @@ The project [**spring-framework-petclinic**](https://github.com/spring-petclinic
 ### 1. Manual deployment of PetClinic Project on Virtualbox VM (Ubuntu 18.04)
     
 1. Gathering info about needed software.  
-Petclinic Project well works on soft:
+Petclinic Project works well on the such versions of software packages:
     - Git 3.8.6
     - Open JDK 11
     - Maven 3.8.6
     - Tomcat 9.0.64
          
 
-2. Manual testing App run with Built-in Database ([Test run app](img/0_1.png))  
+2. Manual testing of the App run with Built-in Database ([Test run app](img/0_1.png))  
 **Problem:** Error on Bootstrap / jQuery versions  
 **Solution:** change Bootstrap version 3.3.6 to 3.4.1 in all project files
 
-3. Manual testing App run with MySQL Database (local Docker)  
+3. Manual testing of the App run with MySQL Database (local Docker)  
 Works normally...
 
-4. Manual testing App run with PostgreSQL Database (local Docker)  
+4. Manual testing of the App run with PostgreSQL Database (local Docker)  
 **Problem:** 8 Built-in Tests Fail, but application works.  
 **Solution:** Disable testing up to the app code fixing (app used too old variant of PostgreSQL for testing). **Testing for PostgreSQL is disabled in deployment.**
 
