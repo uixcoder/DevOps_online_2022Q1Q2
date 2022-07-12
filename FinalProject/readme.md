@@ -4,7 +4,7 @@ The project [**spring-framework-petclinic**](https://github.com/spring-petclinic
 
 ![d1](img/d1.png)
 
-[My forked version of project](https://github.com/uixcoder/spring-framework-petclinic) has some small changes (related to the default database selection) in **pom.xml** file as i done 2 variants of deployment.
+[My forked version of project](https://github.com/uixcoder/spring-framework-petclinic) has some small changes (related to the default database selection) in **pom.xml** file as i done 2 variants of the deployment.
 
 ## Main Stages on working with Deployments:
 
@@ -34,8 +34,8 @@ Works normally...
    1. **Tomcat + PostgreSQL**
 
       - ***AWS EC2 Instance***  
-          2vCPU, 1GiB RAM, 8 GiB HDD/SDD (t3.micro, eu-north-1, Stockholm)  
-          Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64  
+          - 2vCPU, 1GiB RAM, 8 GiB HDD/SDD (t3.micro, eu-north-1, Stockholm)  
+          - Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64  
 
       - ***AWS EC2 Instance***  
           - 2vCPU, 1GiB RAM, 8 GiB HDD/SDD (t3.micro, eu-north-1, Stockholm)  
@@ -47,7 +47,9 @@ Works normally...
           - 2vCPU, 1GiB RAM, 8 GiB HDD/SDD (t3.micro, eu-north-1, Stockholm)  
           - Ubuntu 18.04 + Open JDK 11 + Tomcat 9.0.64  
 
-      - ***AWS RDS*** MySQL 8.0.28, t3.micro
+      - ***AWS RDS***  
+          - t3.micro, 10 GiB Storage
+          - MySQL 8.0.28
 
 ### 3. Create local VirtualBox VM for Docker + Jenkins / Jenkins agents containers
 
