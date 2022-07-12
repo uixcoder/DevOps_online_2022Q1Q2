@@ -93,14 +93,14 @@ Works normally...
 
    2. [Testing under load](Testing.md)
 
-### 9. Writing runbooks
-
-### 10. Add status monitoring for AWS EC2 Instances / RDS MySQL nodes using Prometheus / Grafana 
+### 9. Add status monitoring for AWS EC2 Instances / RDS MySQL nodes using Prometheus / Grafana 
  
    1. [Prometheus Node Exporter + MySQL Exporter](PG_NodeExporter_MySqlExporter.md) 
 
    2. [Prometheus](PG_Prometheus.md)
 
    3. [Grafana](PG_Grafana.md)
+
+### 10. Writing runbooks
 
 
