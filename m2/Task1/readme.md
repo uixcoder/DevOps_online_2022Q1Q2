@@ -13,7 +13,7 @@ Creates Vagrantfile that describes configuration.
 
 ![v1](img/v1.png)
 
-Images may be found at official page
+Images may be found at the official page
 
 `https://app.vagrantup.com/boxes/search`
 
